@@ -1,4 +1,11 @@
 {
-  "item.tutorialmod.cosm_crystal": "Космический кристалл",
-  "item.tutorialmod.cosm_crystal_raw": "Необработанный Космический кристалл"
+  "item.tutorialmod.cosm_crystal": "Космический Кристалл",
+  "item.tutorialmod.cosm_crystal_raw": "Необработанный Космический Кристалл",
+
+
+  "block.tutorialmod.cosm_crystal_block": "Блок Космического Кристалла",
+  "block.tutorialmod.cosm_crystal_ore": "Руда Космического Кристалла",
+
+  "creativetab.tutorialmod.cosm_items": "Космические предметы",
+  "creativetab.tutorialmod.cosm_blocks": "Космические блоки"
 }

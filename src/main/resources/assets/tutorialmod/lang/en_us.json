@@ -1,4 +1,11 @@
 {
-  "item.tutorialmod.cosm_crystal": "Cosmic crystal",
-  "item.tutorialmod.cosm_crystal_raw": "Raw Cosmic crystal"
+  "item.tutorialmod.cosm_crystal": "Cosmic Crystal",
+  "item.tutorialmod.cosm_crystal_raw": "Raw Cosmic crystal",
+
+
+  "block.tutorialmod.cosm_crystal_block": "Cosmic Crystal Block",
+  "block.tutorialmod.cosm_crystal_ore": "Cosmic Crystal Ore",
+
+  "creativetab.tutorialmod.cosm_items": "Cosmic Items",
+  "creativetab.tutorialmod.cosm_blocks": "Cosmic Blocks"
 }

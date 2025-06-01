@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "cosm_crystal_raw",
+  "ingredient": {
+    "item": "tutorialmod:cosm_crystal_ore"
+  },
+  "result": {
+    "id": "tutorialmod:cosm_crystal_raw"
+  }
+}
