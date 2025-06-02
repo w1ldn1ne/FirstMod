@@ -22,9 +22,11 @@ public class ModCreativeModeTabs {
                         public void accept(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
                             pOutput.accept((ModItems.RAW_COSM_CRYSTAL.get()));
                             pOutput.accept((ModItems.COSM_CRYSTAL.get()));
+                            pOutput.accept((ModItems.SUPER_FUEL.get()));
                         }
                     })
                     .build());
+
     public static final RegistryObject<CreativeModeTab> COSM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("cosm_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.COSM_CRYSTAL_ORE.get()))
                     .withTabsBefore(COSM_ITEMS_TAB.getId())
@@ -38,14 +40,27 @@ public class ModCreativeModeTabs {
                         }
                     })
                     .build());
+
     public static final RegistryObject<CreativeModeTab> COSM_TOOLS_TAB = CREATIVE_MODE_TABS.register("cosm_tools_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHISEL.get()))
-                    .withTabsBefore(COSM_ITEMS_TAB.getId())
+                    .withTabsBefore(COSM_BLOCKS_TAB.getId())
                     .title(Component.translatable("creativetab.tutorialmod.cosm_tools"))
                     .displayItems(new CreativeModeTab.DisplayItemsGenerator() {
                         @Override
                         public void accept(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
                             pOutput.accept((ModItems.CHISEL.get()));
+                        }
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> COSM_FOOD_TAB = CREATIVE_MODE_TABS.register("cosm_food_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BANANA.get()))
+                    .withTabsBefore(COSM_TOOLS_TAB.getId())
+                    .title(Component.translatable("creativetab.tutorialmod.cosm_food"))
+                    .displayItems(new CreativeModeTab.DisplayItemsGenerator() {
+                        @Override
+                        public void accept(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
+                            pOutput.accept((ModItems.BANANA.get()));
                         }
                     })
                     .build());
