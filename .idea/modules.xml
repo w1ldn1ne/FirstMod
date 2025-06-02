@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExMod.exmod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ExMod.exmod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExMod.exmod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ExMod.exmod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.w1ldn1ne.exmod.exmod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.w1ldn1ne.exmod.exmod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.w1ldn1ne.exmod.exmod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.w1ldn1ne.exmod.exmod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exmod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/exmod.main.iml" />

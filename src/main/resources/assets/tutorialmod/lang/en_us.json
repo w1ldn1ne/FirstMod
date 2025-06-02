@@ -5,7 +5,11 @@
 
   "block.tutorialmod.cosm_crystal_block": "Cosmic Crystal Block",
   "block.tutorialmod.cosm_crystal_ore": "Cosmic Crystal Ore",
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.cosm_items": "Cosmic Items",
-  "creativetab.tutorialmod.cosm_blocks": "Cosmic Blocks"
+  "creativetab.tutorialmod.cosm_blocks": "Cosmic Blocks",
+  "creativetab.tutorialmod.cosm_tools": "Cosmic Tools",
+
+  "item.tutorialmod.chisel": "Chisel"
 }

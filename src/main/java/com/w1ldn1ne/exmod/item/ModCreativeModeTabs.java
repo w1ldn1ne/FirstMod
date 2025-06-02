@@ -34,10 +34,21 @@ public class ModCreativeModeTabs {
                         public void accept(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
                             pOutput.accept((ModBlocks.COSM_CRYSTAL_ORE.get()));
                             pOutput.accept((ModBlocks.COSM_CRYSTAL_BLOCK.get()));
+                            pOutput.accept((ModBlocks.MAGIC_BLOCK.get()));
                         }
                     })
                     .build());
-
+    public static final RegistryObject<CreativeModeTab> COSM_TOOLS_TAB = CREATIVE_MODE_TABS.register("cosm_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHISEL.get()))
+                    .withTabsBefore(COSM_ITEMS_TAB.getId())
+                    .title(Component.translatable("creativetab.tutorialmod.cosm_tools"))
+                    .displayItems(new CreativeModeTab.DisplayItemsGenerator() {
+                        @Override
+                        public void accept(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
+                            pOutput.accept((ModItems.CHISEL.get()));
+                        }
+                    })
+                    .build());
 
 
     public static void register(IEventBus eventBus) {

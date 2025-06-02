@@ -5,7 +5,11 @@
 
   "block.tutorialmod.cosm_crystal_block": "Блок Космического Кристалла",
   "block.tutorialmod.cosm_crystal_ore": "Руда Космического Кристалла",
+  "block.tutorialmod.magic_block": "Магический блок",
 
   "creativetab.tutorialmod.cosm_items": "Космические предметы",
-  "creativetab.tutorialmod.cosm_blocks": "Космические блоки"
+  "creativetab.tutorialmod.cosm_blocks": "Космические блоки",
+  "creativetab.tutorialmod.cosm_tools": "Космические инструменты",
+
+  "item.tutorialmod.chisel": "Стамеска"
 }

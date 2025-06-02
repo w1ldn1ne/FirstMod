@@ -1,6 +1,7 @@
 package com.w1ldn1ne.exmod.block;
 
 import com.w1ldn1ne.exmod.TutorialMod;
+import com.w1ldn1ne.exmod.block.custom.MagicBlock;
 import com.w1ldn1ne.exmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -27,6 +28,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> COSM_CRYSTAL_ORE = registerBlock("cosm_crystal_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), (BlockBehaviour.Properties.of()
             .strength(3f).requiresCorrectToolForDrops())));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

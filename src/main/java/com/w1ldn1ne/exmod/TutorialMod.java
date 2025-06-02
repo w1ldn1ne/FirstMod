@@ -47,18 +47,7 @@ public class TutorialMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.COSM_CRYSTAL);
-            event.accept(ModItems.RAW_COSM_CRYSTAL);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.COSM_CRYSTAL_BLOCK);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
-            event.accept(ModBlocks.COSM_CRYSTAL_ORE);
-        }
+        
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
